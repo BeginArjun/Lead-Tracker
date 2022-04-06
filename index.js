@@ -31,6 +31,7 @@ deletebtn.addEventListener("click",function()
     //renderLeads(myLeads)
     document.location.reload()
 })
+
 // EventListener for tabBtn
 tabBtn.addEventListener("click",function()
 {
