@@ -1,0 +1,47 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f9f5e3;
+    min-width:400px;
+}
+#input-el{
+    border: 5px solid #ccf5ac;
+    width:90%;
+    height:20px;
+    margin:20px 0px 20px 0px;
+    padding:0px 10px 0px 10px;
+
+}
+.btn_form{
+    background-color: #ffff;
+    border:none;
+    color:black;
+    margin-bottom: 20px;
+    padding:10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn_form:hover{
+    background-color: black;
+    color:white;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:linear-gradient(120deg, #8de9d5,#32c4c0);
+    overflow: hidden;
+    padding-left: 20px;
+}
+#leads{
+    background:linear-gradient(120deg,#6ff7e8,#1f7ea1);
+    list-style:none;
+    padding-left: 0px;
+    margin-top:20px
+}
+#leads>li{
+    margin-top:5px;
+}
+li>a{
+    color:#f9f5e3;
+    font-weight: bolder;
+}
